@@ -1,0 +1,15 @@
+# Assignment 1 — Distributed Client-Server Collaboration Application
+# Python dependencies (install with: pip install -r requirements.txt)
+#
+# Python 3.10+ is required (uses match-statement-free syntax but relies
+# on stdlib modules that were polished in 3.10).
+#
+# Only ONE third-party package is required. The assignment explicitly
+# forbids high-level networking libraries (Flask, Django, WebSockets,
+# asyncio-based frameworks); the `cryptography` package is a crypto
+# primitive library, NOT a networking library, so it is allowed.
+
+cryptography>=42.0          # RSA-2048 + AES-256-CBC + HMAC-SHA256
+
+# Development / testing (optional, only needed to run tests):
+# pytest>=7.4
